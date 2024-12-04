@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="the.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Guess the Number</h1>
+    </nav>
+
+    <!-- Main Content -->
+    <form action="" class="form">
+      <div class="game-container">
+        <h2>Guess the Number</h2>
+        <br />
+        <ul>
+          <li type="bullet"><h4>You can select number between 1 to 100</h4></li>
+          <li type="bullet">
+            <h4>You can only select Numbers to play the game</h4>
+          </li>
+        </ul>
+        <input type="number" id="guessInput" class="guessFeild" />
+        <button id="submitBtn" class="guessBtn">Submit Guess</button>
+
+        <p id="message"></p>
+      </div>
+    </form>
+    <div class="resultNumbers">
+      <p>Previous Guess: <span class="pastguesses"></span></p>
+
+      <p>Guesses Remaining: <span class="remaining">10</span></p>
+      <p class="lowHigh"></p>
+    </div>
+
+    <div class="result">
+      <button id="restartBtn">New Game</button>
+    </div>
+    <script src="number.js"></script>
+  </body>
+</html>

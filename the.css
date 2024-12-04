@@ -1,0 +1,120 @@
+/* Basic reset and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url();
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: #333;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+nav h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/* Game Container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.game-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.lowHigh {
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+.resultNumbers {
+  line-height: 40px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Footer */
+.result {
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+#restartBtn {
+  text-align: center;
+  padding: 10px;
+}
+
+.result button {
+  background-color: #28a745;
+  margin: 0 10px;
+}
+
+.result button:hover {
+  background-color: #218838;
+}
